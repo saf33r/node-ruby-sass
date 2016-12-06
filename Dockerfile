@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:6
 
 RUN apt-get -qq update \
 	&& apt-get install apt-utils --assume-yes
